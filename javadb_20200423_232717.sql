@@ -21,7 +21,7 @@ SET default_tablespace = '';
 SET default_table_access_method = heap;
 
 --
--- Name: users; Type: TABLE; Schema: public; Owner: kader
+-- Name: users; Type: TABLE; Schema: public; Owner: postgres
 --
 
 CREATE TABLE public.users (
@@ -30,13 +30,13 @@ CREATE TABLE public.users (
 );
 
 
-ALTER TABLE public.users OWNER TO kader;
+ALTER TABLE public.users OWNER TO postgres;
 
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: kader
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-INSERT INTO public.users VALUES ('kader', 'elma123');
+INSERT INTO public.users VALUES ('elef', 'sezer123');
 INSERT INTO public.users VALUES ('user', 'user123');
 INSERT INTO public.users VALUES ('user2', 'user123');
 
